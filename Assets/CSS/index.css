@@ -15,14 +15,14 @@ main {
 
 ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     margin-top: 7px;
 }
 
 li {
-    display: inline-block;
+
     float: right;
 }
 li a{
@@ -31,4 +31,25 @@ li a{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.second img{
+display: inline-block;
+margin: 0px;
+margin-right: 12px;
+width: 240px;
+height: 140px;
+
+}
+button{
+    display: inline-block;
+    border: none;
+    background-color: 111;
+    margin-right: 13px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 6px;
+    color: #FFAC12;
+    margin-top: 0px;
+    margin-left: 12px;
 }
