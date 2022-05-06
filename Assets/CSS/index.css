@@ -4,8 +4,6 @@ nav{
     margin-right: 80px;
     margin-top: 60px;
     font-weight: 500;
-    background-size: cover;
-    background-attachment: fixed;
 }
 main {
     margin: 0px;
@@ -33,23 +31,66 @@ li a{
   text-decoration: none;
 }
 
-.second img{
+.images{
 display: inline-block;
 margin: 0px;
 margin-right: 12px;
-width: 240px;
-height: 140px;
 
+
+}
+
+.second{
+    background-color: rgba(218, 212, 212, 0.966);
+    margin-top: 20px;
 }
 button{
     display: inline-block;
     border: none;
-    background-color: 111;
+    background-color: black;
     margin-right: 13px;
     padding: 10px 20px;
     text-align: center;
     border-radius: 6px;
     color: #FFAC12;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 12px;
+
+}
+.first{
+    float: left;
+    margin-right: 20px;
+}
+
+span{
+    color: #FFAC12;
+
+}
+.third{
+    margin-top: 20px;
+    background-color: black;
+}
+.third h3{
+    color: white;
+    margin-left: 50px;
+
+}
+.third hr{
+    background-color: grey;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.image{
+    height: 300px;
+    padding: 15px;
+    background-image: url('Asset/images/moving 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.third2 p{
+    color: white
+    ;
+
 }
