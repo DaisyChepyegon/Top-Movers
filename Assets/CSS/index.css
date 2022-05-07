@@ -32,12 +32,23 @@ li a{
 }
 
 .images{
-display: inline-block;
-margin: 0px;
-margin-right: 12px;
+display: block;
+margin: 0 auto;
+column-count: 3;
+column-gap: 15px;
 
 
 }
+
+.images img{
+    display: inline-block;
+    top: 0px;
+    margin: 0px;
+    width: 240px;
+    height: 140px;
+    margin-right: 12px;
+}
+
 
 .second{
     background-color: rgba(218, 212, 212, 0.966);
@@ -66,17 +77,22 @@ span{
 
 }
 .third{
-    margin-top: 20px;
+    margin-top: 0;
     background-color: black;
 }
 .third h3{
     color: white;
     margin-left: 50px;
+    margin-top: 70px;
 
+}
+.third h4{
+    color: white;
+    margin-top: 100px;
 }
 .third hr{
     background-color: grey;
-    margin-top: 12px;
+    margin-top: 70px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -90,7 +106,10 @@ span{
 
 }
 .third2 p{
-    color: white
-    ;
+    color: white;
 
+}
+.third2{
+    column-count: 3;
+    column-gap: 15px;
 }
