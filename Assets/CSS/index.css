@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+     font-family: Poppins,Actor,Adamina;
+}
 nav{
     display: inline-flex;
     float: right;
     margin-right: 80px;
     margin-top: 60px;
     font-weight: 500;
+}
+.image{
+
+    background-image: url('Assets/images/moving 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 main {
     margin: 0px;
@@ -25,7 +37,7 @@ li {
 }
 li a{
     display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -35,7 +47,7 @@ li a{
 display: block;
 margin: 0 auto;
 column-count: 3;
-column-gap: 15px;
+column-gap: 12px;
 
 
 }
@@ -52,8 +64,9 @@ column-gap: 15px;
 
 .second{
     background-color: rgba(218, 212, 212, 0.966);
-    margin-top: 20px;
+    margin-top: 100px;
 }
+
 button{
     display: inline-block;
     border: none;
@@ -67,9 +80,13 @@ button{
     margin-left: 12px;
 
 }
-.first{
+.first img{
     float: left;
     margin-right: 20px;
+    width: 400px;
+}
+.first h2{
+    margin-top: 50px;
 }
 
 span{
@@ -96,15 +113,9 @@ span{
     margin-left: 20px;
     margin-right: 20px;
 }
-.image{
-    height: 300px;
-    padding: 15px;
-    background-image: url('Asset/images/moving 1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 
-}
+
+
 .third2 p{
     color: white;
 
@@ -112,4 +123,12 @@ span{
 .third2{
     column-count: 3;
     column-gap: 15px;
+
+}
+#clr{
+    color: #FAFF00;
+}
+.features {
+    column-count: 3;
+    column-gap: 12px;
 }
