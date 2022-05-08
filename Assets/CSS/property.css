@@ -60,6 +60,7 @@ header button{
 .frm{
     display: block;
     padding: 5px;
+
 }
 .fifth img{
     width: 80%;
@@ -69,7 +70,8 @@ header button{
 }
 
 form{
-    width: 20%;
+    width: 15%;
+    margin-right: 30px;
    
 }
     
@@ -123,6 +125,7 @@ nav{
 .columns{
     column-count: 3;
     column-gap: 15px;
+    border-top: 1px gray solid;
 }
 .arrangements{
     grid-template-columns: auto auto auto;
@@ -168,8 +171,21 @@ nav{
 .ten{
     column-count: 3;
     column-gap: 15px;
+    width: 60%;
 }
 .tenth hr{
     background-color: grey;
     margin-top: 70px;
+}
+.icon{
+    width: 30%;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+.final{
+    border-top: 1px gray solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
