@@ -113,7 +113,7 @@ button{
     margin-right: 13px;
     padding: 10px 20px;
     text-align: center;
-    border-radius: 6px;
+    border-top-right-radius: 10px;
     color: #FAFF00;
     margin-top: 0;
     margin-left: 12px;
@@ -186,6 +186,19 @@ span{
     background-color: black;
     color: white;
 }
+.forth li{
+    margin: 10px;
+    color: white;
+}
+.forth a{
+    color: white;
+}
+.forth button{
+    background-color: #FAFF00;
+    text-align: center;
+    border-top-right-radius: 10px;
+    color: black;
+}
 .main2{
     background-color: rgb(235, 230, 230);
 }
@@ -232,7 +245,7 @@ nav{
 .gridcont{
     display: grid;
     background-color: white;
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
     padding: 2px;
     box-shadow: 5px 0px 5px grey ;
@@ -258,7 +271,7 @@ nav{
     display: grid;
 }
 .seventh{
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
     padding: 2px;
     box-shadow: 5px 0px 5px grey ;
@@ -268,7 +281,7 @@ nav{
 }
 
 .eighth{
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
     padding: 2px;
     box-shadow: 5px 0px 5px grey ;
@@ -280,6 +293,7 @@ nav{
 .nineth{
     column-count: 4;
     column-gap: 5px;
+    width: 100%;
 
 
 }
