@@ -73,6 +73,10 @@ content: wrap;
     font-size: 10px;
     text-align: center;  
 }
+.arrangement{
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
 
 
 .second{
@@ -191,4 +195,17 @@ nav{
 .arrange{
     grid-template-columns: auto auto auto auto auto;
     display: grid;
+}
+.columns{
+    column-count: 3;
+    column-gap: 15px;
+}
+.arrangements{
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
+.nineth{
+    column-count: 4;
+    column-gap: 5px;
+
 }
