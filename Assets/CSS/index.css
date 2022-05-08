@@ -12,10 +12,12 @@ nav{
 }
 .image{
 
-    background-image: url('Assets/images/moving 1.png');
+    background-image: url("Assets/images/moving 1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    width: 80%;
+    height: 450px;
 }
 main {
     margin: 0px;
@@ -45,9 +47,8 @@ li a{
 
 .images{
 display: block;
-margin: 0 auto;
 column-count: 3;
-column-gap: 12px;
+column-gap: 20px;
 
 
 }
@@ -55,16 +56,29 @@ column-gap: 12px;
 .images img{
     display: inline-block;
     top: 0px;
-    margin: 0px;
+    margin: 50px;
     width: 240px;
     height: 140px;
     margin-right: 12px;
+}
+.gridcontainer{
+    display: grid;
+    background-color: white;
+    width: 50%;
+}
+.griditem{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;  
 }
 
 
 .second{
     background-color: rgba(218, 212, 212, 0.966);
     margin-top: 100px;
+    height: 700px;
 }
 
 button{
@@ -75,10 +89,17 @@ button{
     padding: 10px 20px;
     text-align: center;
     border-radius: 6px;
-    color: #FFAC12;
+    color: #FAFF00;
     margin-top: 0;
     margin-left: 12px;
 
+}
+
+.first{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 90%;
+    height: 400px;
 }
 .first img{
     float: left;
@@ -87,10 +108,14 @@ button{
 }
 .first h2{
     margin-top: 50px;
+} 
+.first p{
+    text-align: center;
+
 }
 
 span{
-    color: #FFAC12;
+    color: #FAFF00;
 
 }
 .third{
@@ -120,9 +145,11 @@ span{
     color: white;
 
 }
-.third2{
+.third2 {
     column-count: 3;
     column-gap: 15px;
+    margin-top: 20px;
+
 
 }
 #clr{
@@ -131,4 +158,7 @@ span{
 .features {
     column-count: 3;
     column-gap: 12px;
+}
+.image p{
+    text-align: center;
 }
