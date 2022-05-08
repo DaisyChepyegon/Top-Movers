@@ -30,7 +30,7 @@ nav li a{
 .image{
     background-image: url("../Images/moving 1.png");
     background-size: cover;
-    height: 100vh;
+    height: 93vh;
   
 
  
@@ -100,7 +100,6 @@ flex-wrap: wrap;
     align-items:center ;
     height: 70%;
     margin-top: 12px;
-    border-radius: 6px;
     margin-left: 30px;
     box-shadow: 5px 0px 5px grey ;
     border-radius: 10px;
@@ -130,8 +129,10 @@ flex-wrap: wrap;
     padding: 2px;
     font-size: 15px;
     text-align: center;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    border-left: 1px solid rgb(107, 107, 107);
+    border-right: 1px solid rgb(107, 107, 107);
+    border-top: 1px solid rgb(107, 107, 107);
+    
 }
 .arrangement{
     grid-template-columns: auto auto auto;
@@ -194,26 +195,30 @@ span{
 .third{
     margin-top: 0;
     background-color: black;
+    height: 400px;
 }
 .icons{
     color: white;
     width: 30%;
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 10px;
     
 }
 .icons i{
     margin-left: 15px;
 }
-.third h3{
+.third h2{
     color: white;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 70px;
+    padding: 20px ;
+    border-bottom: 1px gray solid;
+    width: 100%;
 
 }
 .third h4{
     color: white;
-    margin-top: 100px;
+    
 }
 
 
@@ -226,15 +231,17 @@ span{
 .third2 {
     display: inline-block;
     column-count: 3;
-    column-gap: 15px;
-    margin-top: 10px;
+    column-gap: 25px;
+    margin-top: 40px;
+   
     
 
 
 }
 .final{
-    border-top: 1px gray solid;
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
 }
