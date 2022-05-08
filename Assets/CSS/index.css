@@ -83,6 +83,13 @@ li a{
     padding: 3px 5px;
     text-decoration: none;
 }
+.selected{
+    background-color: #000000;
+    color: #FAFF00;
+    padding: 3px 5px;
+    text-decoration: none;
+
+}
 .images{
 display: block;
 column-count: 3;
