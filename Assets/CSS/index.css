@@ -3,6 +3,7 @@
 body{
      font-family: Poppins,Actor,Adamina;
 }
+
 nav{
     display: inline-flex;
     float: right;
@@ -49,7 +50,7 @@ li a{
 display: block;
 column-count: 3;
 column-gap: 20px;
-content: wrap;
+flex-wrap: wrap;
 
 }
 
@@ -153,9 +154,11 @@ span{
 
 }
 .third2 {
+    display: inline-block;
     column-count: 3;
     column-gap: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
+    
 
 
 }
@@ -208,4 +211,8 @@ nav{
     column-count: 4;
     column-gap: 5px;
 
+}
+.tenth{
+    background-color: black;
+    color: white;
 }
