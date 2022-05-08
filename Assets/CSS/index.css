@@ -109,10 +109,29 @@ flex-wrap: wrap;
 }
 .griditem{
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    
     padding: 2px;
-    font-size: 10px;
-    text-align: center;  
+    font-size: 15px;
+    text-align: left; 
+    margin-left: 30px; 
+    
+}
+.griditem1 {
+    background-color: white;
+
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid grey;
+}
+.griditem2 {
+    background-color: white;
+
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
 }
 .arrangement{
     grid-template-columns: auto auto auto;
@@ -154,7 +173,7 @@ button{
 }
 .first img{
     float: left;
-    margin-right: 20px;
+    margin-right: 30px;
     width: 50vw;
     height:90%;
 }
@@ -178,6 +197,13 @@ span{
 }
 .icons{
     color: white;
+    width: 30%;
+    margin-top: 50px;
+    padding: 10px;
+    
+}
+.icons i{
+    margin-left: 15px;
 }
 .third h3{
     color: white;
@@ -189,12 +215,7 @@ span{
     color: white;
     margin-top: 100px;
 }
-.third hr{
-    background-color: grey;
-    margin-top: 70px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 
 
@@ -210,4 +231,10 @@ span{
     
 
 
+}
+.final{
+    border-top: 1px gray solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
