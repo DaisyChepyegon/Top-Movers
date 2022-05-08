@@ -24,6 +24,9 @@ nav{
     
     
 }
+nav li a{
+    color:white;
+}
 .image{
     background-image: url("../Images/moving 1.png");
     background-size: cover;
@@ -70,7 +73,6 @@ li {
 }
 li a{
     display: block;
-  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -147,18 +149,22 @@ button{
     margin-top: 20px;
     margin-bottom: 50px;
     width: 90%;
-    height: 400px;
+    height: 90vh;
+    padding: 20px;
 }
 .first img{
     float: left;
     margin-right: 20px;
-    width: 400px;
+    width: 50vw;
+    height:90%;
 }
 .first h2{
     margin-top: 50px;
+    font-size:45px;
 } 
 .first p{
-    text-align: center;
+    text-align: left;
+    font-size:30px;
 
 }
 
