@@ -290,6 +290,10 @@ nav{
     margin-bottom: 50px;
     background-color: white;
 }
+.columns i{
+    margin: 10px;
+}
+
 .nineth{
     column-count: 4;
     column-gap: 5px;
