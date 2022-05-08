@@ -10,9 +10,9 @@ Daisy Chepyegon
 
 ## Screenshot
 
-![image](Assets/images/Fireshot1.png)
+![image](/Assets/Images/Fireshot1.png)
 
-![image](Assets/images/fireshot1.png)
+![image](/Assets/Images/fireshot1.png)
 
 ---
 
