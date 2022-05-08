@@ -22,8 +22,6 @@ nav{
 }
 main {
     margin: 0px;
-    margin-left: 60px;
-    margin-right: 60px;
 }
 
 ul {
@@ -84,6 +82,11 @@ flex-wrap: wrap;
     background-color: rgba(218, 212, 212, 0.966);
     margin-top: 100px;
     height: 700px;
+}
+.color{
+    width: 20px;
+    height: 2px;
+    color: rgb(68, 68, 34);
 }
 
 button{
@@ -186,11 +189,14 @@ nav{
     display: grid;
     background-color: white;
     width: 50%;
-    border-radius: 6px;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 5px 0px 5px grey ;
+    margin-left: 70px;
 }
 .griditm{
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 0.5px solid rgba(131, 128, 128, 0.336);
     padding: 10px;
     font-size: 10px;
     text-align: center;  
@@ -207,6 +213,24 @@ nav{
     grid-template-columns: auto auto auto;
     display: grid;
 }
+.seventh{
+    width: 50%;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 5px 0px 5px grey ;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.eighth{
+    width: 50%;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 5px 0px 5px grey ;
+    margin-top: 25px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
 .nineth{
     column-count: 4;
     column-gap: 5px;
@@ -215,4 +239,19 @@ nav{
 .tenth{
     background-color: black;
     color: white;
+}
+#tens{
+    margin-right: 50px;
+}
+.tenth button{
+    background-color: #FFAC12;
+    color: black;
+}
+.ten{
+    column-count: 3;
+    column-gap: 15px;
+}
+.tenth hr{
+    background-color: grey;
+    margin-top: 70px;
 }
