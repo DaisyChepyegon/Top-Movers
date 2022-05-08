@@ -63,23 +63,29 @@ flex-wrap: wrap;
 
 .images img{
     display: inline-block;
-    top: 0px;
-    margin: 50px;
-    width: 240px;
-    height: 140px;
+    margin: 20px;
+    width: 50%;
+    height: 50%;
     margin-right: 12px;
 }
 .gridcontainer{
     display: grid;
     background-color: white;
-    width: 30%;
+    width: 70%;
     align-items:center ;
-    height: 30%;
+    height: 70%;
+    margin-top: 12px;
+    border-radius: 6px;
+    margin-left: 30px;
+    box-shadow: 5px 0px 5px grey ;
+    border-radius: 10px;
+    border: 1px;
+
 }
 .griditem{
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 10px;
+    padding: 2px;
     font-size: 10px;
     text-align: center;  
 }
