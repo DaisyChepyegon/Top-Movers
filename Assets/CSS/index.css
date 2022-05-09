@@ -83,12 +83,16 @@ li a{
     color: black;
     padding: 3px 5px;
     text-decoration: none;
+    margin-left: 10px;
+    border-radius: 6px;
 }
 .selected{
     background-color: #000000;
     color: #FAFF00;
     padding: 3px 5px;
     text-decoration: none;
+    border-radius: 6px;
+    margin-left: 15px;
 
 }
 .images{
