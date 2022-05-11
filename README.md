@@ -12,7 +12,7 @@ Daisy Chepyegon
 
 ![image](/Assets/Images/fireshot1.png)
 
-![image](/Assets/Images/fireshot2.png)
+![image](/Assets/Images/fireshot3.png)
 
 ---
 
