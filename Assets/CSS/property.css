@@ -203,6 +203,7 @@ h2{
 }
 .columns i{
     margin: 10px;
+    color: #FFAC12;
 }
 
 
@@ -254,7 +255,96 @@ h2{
     flex-direction: row;
     justify-content: space-between;
 }
-.container{
+footer{
     background-color: black;
     color: white;
+}
+#gradient{
+    width: 10%;
+    margin-left: 50px;
+    height: 5px;
+    border: none;
+    background-image: linear-gradient(to right,#FFAC12, black );
+    border-radius: 6px;
+
+}
+
+@media screen  and (max-width:700px){
+    header{
+        height: auto
+    }
+    .Address{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+
+    }
+    .galary{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .fifth{
+        margin-top: 15px;
+    }
+    .gridcont{
+        width: 100%;
+        margin:15px  0;
+    }
+    .seventh{
+        width: 100%;
+        margin: 15px 0;
+        padding: 10px;
+    }
+    .eighth{
+        width: 100%;
+        margin: 15px 0;
+    }
+    .columns i{
+        margin: 0;
+        color: #FFAC12;
+    }
+    .columns{
+        font-size: 14px;
+    }
+
+    .final{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icons i{
+        margin: 0;
+        margin: 10px ;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .ten{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        /* background-color: #FFAC12; */
+    }
+    .tenth nav{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+    #gradient{
+        width: 40%;
+        margin-left: 50px;
+        height: 5px;
+        border: none;
+        background-image: linear-gradient(to right,#FFAC12, black );
+        border-radius: 6px;
+
+    }
 }
