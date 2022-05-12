@@ -10,9 +10,13 @@ Daisy Chepyegon
 
 ## Screenshot
 
+### Home Page
 ![image](/Assets/Images/fireshot1.png)
 
+### Property Page
 ![image](/Assets/Images/fireshot3.png)
+
+### Mobile Screenshot
 
 ![image](/Assets/Images/fireshot4.png)
 
