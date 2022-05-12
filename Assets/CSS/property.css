@@ -271,7 +271,7 @@ footer{
 
 @media screen  and (max-width:700px){
     header{
-        height: auto
+        height: 40vh;
     }
     .Address{
        display: flex;
@@ -280,16 +280,21 @@ footer{
 
     }
     .galary{
+        margin-top: 60px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
+    }
+    form{
+        height: 50vh;
+
     }
     .fifth{
         margin-top: 15px;
     }
     .gridcont{
         width: 100%;
-        margin:15px  0;
+        margin:60px  0;
     }
     .seventh{
         width: 100%;
@@ -299,13 +304,15 @@ footer{
     .eighth{
         width: 100%;
         margin: 15px 0;
+        height: 15vh;
     }
     .columns i{
         margin: 0;
         color: #FFAC12;
     }
     .columns{
-        font-size: 14px;
+        font-size: 12px;
+        
     }
 
     .final{
